@@ -8,7 +8,7 @@ import javax.swing.JFrame;
 import controler.ChessGameControlers;
 import controler.controlerLocal.ChessGameControler;
 import model.observable.ChessGame;
-import vue.ChessGameGUI;
+//import vue.ChessGameGUI;
 
 
 
@@ -25,7 +25,7 @@ public class LauncherGUI {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-
+/*
 		ChessGame chessGame;	
 		ChessGameControlers chessGameControler;
 		JFrame frame;	
@@ -44,5 +44,5 @@ public class LauncherGUI {
 		frame.setPreferredSize(dim);
 		frame.pack();
 		frame.setVisible(true);
-	}
+*/	}
 }

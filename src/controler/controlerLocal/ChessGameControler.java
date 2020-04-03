@@ -12,7 +12,7 @@ import controler.AbstractChessGameControler;
  *
  */
 public class ChessGameControler extends AbstractChessGameControler {
-	
+
 	public ChessGameControler(ChessGame chessGame) {
 		super(chessGame);
 	}
@@ -27,8 +27,9 @@ public class ChessGameControler extends AbstractChessGameControler {
 	@Override
 	public boolean isPlayerOK(Coord initCoord) {
 		// ToDo
+		return false;
 	}
-	
+
 	/* (non-Javadoc)
 	 * @see controler.AbstractChessGameControler#endMove(model.Coord, model.Coord, java.lang.String)
 	 * 
@@ -37,7 +38,6 @@ public class ChessGameControler extends AbstractChessGameControler {
 	@Override
 	protected void endMove(Coord initCoord, Coord finalCoord,
 			String promotionType) {
-		
 	}
 
 	

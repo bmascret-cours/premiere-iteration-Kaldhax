@@ -92,5 +92,5 @@ public abstract class AbstractChessGameControler implements ChessGameControlers 
 	protected Couleur getPieceColor(Coord initCoord){		
 		return this.chessGame.getPieceColor(initCoord.x, initCoord.y);		
 	}	
-	
+
 }

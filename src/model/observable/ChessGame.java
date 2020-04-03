@@ -89,7 +89,7 @@ public class ChessGame extends Observable implements BoardGames{
 		return echiquier.getPieceColor(x, y);
 	}
 
-	
+
 
 	/* (non-Javadoc)
 	 * @see java.util.Observable#notifyObservers(java.lang.Object)
